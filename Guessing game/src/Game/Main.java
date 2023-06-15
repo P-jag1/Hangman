@@ -6,6 +6,7 @@ public class Main {
 		new Gui();
 	}
 	
+	//main
 	public static void main(String[] args) {
 		new Main();
 
