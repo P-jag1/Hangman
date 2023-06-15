@@ -6,7 +6,7 @@ public class Main {
 		new Gui();
 	}
 	
-	//main
+	//dummy change
 	public static void main(String[] args) {
 		new Main();
 
