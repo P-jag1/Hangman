@@ -29,7 +29,7 @@ public class GameStart {
 	public void initializeGame() {
 		gameStartFrame = new JFrame();
 		
-		gameStartFrame.setTitle("Guessing game");
+		gameStartFrame.setTitle("Hangman game");
 		gameStartFrame.setPreferredSize(new Dimension(200, 200));
 		gameStartFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
@@ -88,7 +88,7 @@ public class GameStart {
 			public void actionPerformed(ActionEvent e) {
 				String word = txtWord.getText();
 				if (word.equals("Enter your word")) {
-					lblNotification.setText("Input not valid!");
+					lblNotification.setText("Input invalid!");
 				} else {
 					new Game(word);
 					gameStartFrame.dispose();	

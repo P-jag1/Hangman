@@ -60,7 +60,7 @@ public class Game{
 		
 		frame = new JFrame();
 		
-		frame.setTitle("Guessing Game");
+		frame.setTitle("Hangman Game");
 		frame.setPreferredSize(new Dimension(400, 710));
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		

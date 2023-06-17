@@ -23,13 +23,13 @@ public class Gui {
 		frame = new JFrame();
 		frame.getContentPane().setBackground(new Color(211, 211, 211));
 		
-		frame.setTitle("Guessing game");
+		frame.setTitle("Hangman game");
 		frame.setPreferredSize(new Dimension(250, 250));
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
 		frame.getContentPane().setLayout(null);
 		
-		JLabel lblWelcome = new JLabel("Welcome to the Guessing Game");
+		JLabel lblWelcome = new JLabel("Welcome to the Hangman game");
 		lblWelcome.setHorizontalAlignment(SwingConstants.CENTER);
 		lblWelcome.setBounds(10, 11, 214, 57);
 		frame.getContentPane().add(lblWelcome);
