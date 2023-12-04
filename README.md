@@ -7,5 +7,8 @@
 ## Video
 
 
-https://github.com/P-jag1/hangman/assets/73929822/d11b9f77-ddcd-4066-a43d-502a5e08f30c
+
+https://github.com/P-jag1/hangman/assets/73929822/aa028c5c-b8ec-4f9d-a83a-bd19859cdd63
+
+
 
