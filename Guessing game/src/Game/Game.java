@@ -189,8 +189,8 @@ public class Game{
 		
 		if(word.indexOf(letter) != -1) {
 			for(int i = 0; i < word.length(); i++) {
-				if (word.charAt(i) == letter) {					
-					myFields[i] = letter;
+				if (word.charAt(i) == letter || word.toUpperCase().charAt(i) == letter) {					
+					myFields[i] = word.charAt(i);
 					fields = String.valueOf(myFields);
 				} 			
 			}

@@ -90,7 +90,7 @@ public class GameStart {
 				if (word.equals("Enter your word")) {
 					lblNotification.setText("Input invalid!");
 				} else {
-					new Game(word);
+					new Game(word.toLowerCase());
 					gameStartFrame.dispose();	
 				}
 			}
